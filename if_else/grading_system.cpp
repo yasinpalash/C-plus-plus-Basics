@@ -15,5 +15,34 @@ Ask user to enter marks and print the corresponding grade.
 int main()
 {
 
+    cout << "Input a int : ";
+    int a;
+    cin >> a;
+
+    if (a < 25)
+    {
+        cout << "Your grade is F";
+    }
+    else if (a >= 25 && a < 45)
+    {
+        cout << "Your grade is E";
+    }
+    else if (a >= 45 && a < 50)
+    {
+        cout << "Your grade is D";
+    }
+    else if (a >= 50 && a < 60)
+    {
+        cout << "Your grade is C";
+    }
+    else if (a >= 60 && a < 80)
+    {
+        cout << "Your grade is B";
+    }
+    else if (a >= 80)
+    {
+        cout << "Your grade is A";
+    }
+
     return 0;
 }
