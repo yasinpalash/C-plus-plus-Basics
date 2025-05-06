@@ -24,7 +24,6 @@ int main()
             cout << ", but retirement soon. ";
         }
     }
-
     else
     {
         cout << "Not eligible for the job " << age;
